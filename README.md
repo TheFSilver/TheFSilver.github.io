@@ -1,2 +1,2 @@
-Ceci est mon MotherFuckingWebsite pour The Hacking Project.
+Ceci est mon BetterMotherFuckingWebsite pour The Hacking Project.
 TheFSilver!
