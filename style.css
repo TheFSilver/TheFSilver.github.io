@@ -1,143 +1,18 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
 body
 {
-	font-family: Open Sans, Arial;
-	max-width:800px;
-	padding:1em;
-	margin:2em auto;
-	line-height: 1.4;	
-	font-size: 16px;
-	color: #454545;
-	text-align: justify;
+	background-color: white;
+	width: 650px;
+	padding: 16px;
+	line-height: 1.6;
+	text-align: left;
+	margin: auto;
+	font-size: 18px;
 }
 
-a
-{
-	color:#0077AA;
-}
 
-a:visited
-{
-	color:maroon;	
-}
-
-.turquoise
-{
-	color: #20B2AA;	
-}
-
-#wrong
-{
-	text-decoration:underline;
-	font-weight:bold;
-	color: #B22222;	
-}
-
-#blue
-{
-	color:blue;
-}
-
-#violet
-{
-	color:indigo;
-}
-
-#maroon
-{
-	color:maroon;
-}
-
-.com
-{
-		font-size:.4em;
-}
-
-.java, .css3, .html5
-{
-	height:16px;
-}
-
-.more
-{
-	font-family:monospace;
-	font-size:0.9em;
-}
-
-#qsq
-{
-    color: #444;
-    font-size:2em;
-}
-
-#csq
-{
-    color: #454545;
-    font-size:2em;
-}
-
-.four
-{
-	color:#444;
-	font-weight:700;
-}
-
-.five
-{
-	color:#454545;
-	font-weight:700;
-}
-
-div.catimg
-{
-	float:left;
-	width:40%;
-}
-
-div.catimg img
-{
-	width:100%;
-}
-
-div.catimg p
-{
-	font-size:0.7em;
-}
-
-div.cattxt
-{
-	float:left;
-	width:55%;
-}
-
-div.cattxt p
-{
-	margin-top:0;
-	margin-left:1em;
-}
-
-.stop
-{
-	clear:both;	
-}
-
-.quote
-{
-	vertical-align:bottom;
-	font-size:.6em;
-}
-
-.cit 
-{
-	vertical-align:top;
-	font-size:.7em;
-}
-
-.kopimi
+button
 {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
-    height:2em;
+	margin-right: auto;
 }
