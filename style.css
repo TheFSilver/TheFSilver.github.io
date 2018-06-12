@@ -1,4 +1,4 @@
-body
+body /* Mise en forme de la page */
 {
 	background-color: white;
 	width: 650px;
@@ -10,7 +10,7 @@ body
 }
 
 
-button
+button /* Centrage du bouton */
 {
 	display: block;
 	margin-left: auto;
