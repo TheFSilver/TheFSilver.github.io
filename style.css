@@ -1,4 +1,4 @@
-body /* Mise en forme de la page */
+body
 {
 	background-color: white;
 	width: 650px;
@@ -9,10 +9,14 @@ body /* Mise en forme de la page */
 	font-size: 18px;
 }
 
-
-button /* Centrage du bouton */
+.txt
 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	font-family: courier;	
+}
+
+button
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
