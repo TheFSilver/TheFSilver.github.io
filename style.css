@@ -1,12 +1,3 @@
-@font-face {
-    font-family: papyrus;
-    src: url('http://cdn.myld.com.au/1/fonts/Papyrus/papyrus.eot');
-    src: url('http://cdn.myld.com.au/1/fonts/Papyrus/papyrus.eot?#iefix') format('embedded-opentype'),
-    	 url('http://cdn.myld.com.au/1/fonts/Papyrus/papyrus.woff') format('woff'),
-         url('http://cdn.myld.com.au/1/fonts/Papyrus/papyrus.ttf')  format('truetype'),
-         url('http://cdn.myld.com.au/1/fonts/Papyrus/papyrus.svg#papyrus') format('svg');
-}
-
 body
 {
 	background-color: white;
