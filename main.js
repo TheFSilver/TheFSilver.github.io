@@ -14,7 +14,7 @@ function change() { // Fonction du bouton du mode psychedelique
 		var px = document.getElementsByClassName("para"); // Changement des style paragraphes
 		for (var i = 0; i < px.length; i++) {
 		px[i].style.color="blue";
-		px[i].style.fontFamily = "papyrus";
+		px[i].style.fontFamily = "ownpapyrus";
 		}
     
 		var hx = document.getElementsByClassName("headers"); // Changement des style headings
