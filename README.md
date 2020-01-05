@@ -2,13 +2,13 @@
 
 ### HTML & CSS : Exercice final
 
-Le résultat est disponible sur le lien suivant: https://thefsilver.github.io/
+Le résultat est disponible sur le lien suivant: https://thefsilver.github.io/ :rocket:
 
 :warning: Cette page est Mobile-Responsive.  
 L'affichage sera donc légèrement différent, en fonction de votre appareil.  
-Il est donc recommandé d'utiliser un ordinateur pour obtenir un effet optimal.
+:rotating_light: Il est donc recommandé d'utiliser un ordinateur pour obtenir un effet optimal. :rotating_light:
 
-Le code HTML et CSS de la page est accessible ici: [index.html](https://github.com/TheFSilver/TheFSilver.github.io/blob/master/index.html)
+Le code HTML et CSS de la page est accessible ici: [index.html](https://github.com/TheFSilver/TheFSilver.github.io/blob/master/index.html) :rocket:
 
 ### Instructions
 
@@ -53,9 +53,10 @@ La structure de page ci-dessous a été donnée comme point de départ:
 D'autres contraintes techniques ont été données et respectées mais ne seront pas détailler ici pour éviter d'allonger ce Readme.
 
 La page étant un peu *terne*, je me suis permis d'ajouter quelques hover effects. :sparkles:  
-Et parce qu'en tant que Web Developer, je ne pouvais faire l'impasse, j'ai rendu la page responsive... :cake:
+En tant que Web Developer, je ne pouvais faire l'impasse donc j'ai rendu la page responsive... :cake:
 
-Créé par François D. en jouant avec le 🔥
+Créé par François D. en jouant avec le 🔥  
+Et parce que je ferais surement moins le malin par la suite...
 
 ![I'm out!](https://media.giphy.com/media/3o7qDSOvfaCO9b3MlO/giphy.gif)
 
