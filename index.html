@@ -39,10 +39,6 @@
         border-style: solid;
         padding: 0em 0.5em;
       }
-	    
-      .column:hover {
-        border-color: DodgerBlue;
-      }
       
       .column a {
         text-decoration: none;
@@ -69,12 +65,7 @@
         margin: 0em 0.1em;
         text-decoration: none;
       }
-      
-      .pagination a:hover {
-        border-width: 2px;
-		margin: 0em calc(0.1em - 1px);
-      }
-      
+
       footer {
         color: grey;
         height: 3em;
@@ -91,11 +82,23 @@
         color: grey;
         text-decoration: none;
       }
-      
+	    
+  <! –– Cool Effects Code ––>
+      .column:hover {
+        border-color: DodgerBlue;
+      }
+
+      .pagination a:hover {
+        border-width: 2px;
+	margin: 0em calc(0.1em - 1px);
+      }
+	    
       footer a:hover {
         color: MintCream;
       }
+  <! –– End of Cool Effects Code ––>
       
+  <! –– Mobile Responsive Code ––>
       @media only screen and (max-width: 640px) {
         .row {
 	  flex-wrap: wrap;
@@ -118,6 +121,8 @@
           padding: 0.25em 0.5em;
         }
       }
+  <! –– End of Mobile Responsiveness Code ––>
+	    
     </style>
   </head>
   <body>
