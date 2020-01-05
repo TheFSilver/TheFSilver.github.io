@@ -52,9 +52,14 @@ La structure de page ci-dessous a été donnée comme point de départ:
 
 D'autres contraintes techniques ont été données et respectées mais ne seront pas détailler ici pour éviter d'allonger ce Readme.
 
-La page étant un peu *terne*, je me suis permis d'ajouter quelques hover effects.
-Et parce que j'en étais capable, j'ai rendu la page responsive...
+La page étant un peu *terne*, je me suis permis d'ajouter quelques hover effects. :sparkles:
+
+Et parce que j'en étais capable, j'ai rendu la page responsive... :cake:
+En tant que Web Developer, je ne pouvais faire l'impasse !
 
 Créé par François D. en jouant avec le 🔥
 
+![I'm out!](https://media.giphy.com/media/3o7qDSOvfaCO9b3MlO/giphy.gif)
+
+[:top:](#humind-school)
 
