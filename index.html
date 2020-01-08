@@ -2,66 +2,72 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>L'annuaire des startups</title>
-    <link rel='icon' href='/pictures/thefsilver.jpeg'>
+    <link rel="icon" href="/pictures/thefsilver.jpeg" />
     <style>
       * {
         box-sizing: border-box;
       }
-      
+
       body {
-        margin:0 2em !important;
+        margin: 0 2em !important;
       }
-      
+
       .title {
         color: DodgerBlue;
         background-color: Gainsboro;
-        text-align:center;
+        text-align: center;
       }
-      
+
       .intro {
         color: RGB(20, 96, 170);
       }
-      
+
       .intro + p {
         color: RGB(10, 48, 85);
       }
-      
+
+      #grid {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        margin-top: 2em;
+        grid-gap: 2em;
+      }
+
       .row {
         display: flex;
         height: 250px;
         justify-content: space-between;
-        margin: 2em 0em;
       }
-      
+
       .column {
         width: 30%;
         border-style: solid;
         padding: 0em 0.5em;
       }
-      
+
       .column a {
         text-decoration: none;
         color: black;
-        text-align:center;
+        text-align: center;
       }
-      
+
       .column img {
         width: 50px;
-    	vertical-align: middle;
+        vertical-align: middle;
       }
-      
+
       .column ul li {
         padding: 2px 0px;
       }
-      
+
       .pagination {
-        margin-bottom: 2em;
+        margin: 2em 0em;
       }
-      
-      .pagination a {
+
+      .button {
         border: 1px solid DodgerBlue;
         padding: 0.5em 1em;
         margin: 0em 0.1em;
@@ -75,17 +81,17 @@
         align-items: center;
         justify-content: space-between;
         background-color: black;
-        width: calc( 100% + 4em);
+        width: calc(100% + 4em);
         margin-left: -2em;
         padding: 0em 1em;
       }
-      
+
       footer a {
         color: grey;
         text-decoration: none;
       }
-	    
-  /* Cool Effects Code */
+
+      /* Cool Effects Code */
       .column:hover {
         border-color: DodgerBlue;
       }
@@ -94,36 +100,41 @@
         color: DodgerBlue;
       }
 
-      .pagination a:hover {
+      .button:hover {
         border-width: 2px;
-	margin: 0em calc(0.1em - 1px);
+        margin: 0em calc(0.1em - 1px);
       }
-	    
+
       footer a:hover {
         color: MintCream;
       }
-  /* End of Cool Effects Code */
-      
-  /* Mobile Responsive Code */
+      /* End of Cool Effects Code */
+
+      /* Mobile Responsive Code */
       @media only screen and (max-width: 640px) {
+        #grid {
+          grid-gap: 0em;
+          margin-top: 0;
+        }
+
         .row {
-	  flex-wrap: wrap;
+          flex-wrap: wrap;
           height: auto;
-          margin: 0;
-          justify-content:center;
-	}
-	
-	.column {
-          width: 30em;
-	  height: 225px;
+          justify-content: center;
+        }
+
+        .column {
+          max-width: 28em;
+          width: 100%;
+          height: 225px;
           margin: 1em 0;
-	}
-	
+        }
+
         .pagination {
           margin-top: 1em;
         }
-	 
-        .pagination a {
+
+        .button {
           padding: 0.25em 0.5em;
         }
 
@@ -131,8 +142,7 @@
           font-size: 12px;
         }
       }
-  /* End of Mobile Responsiveness Code */
-	    
+      /* End of Mobile Responsiveness Code */
     </style>
   </head>
   <body>
@@ -142,11 +152,11 @@
 
     <p>Description de l'annuaire</p>
 
-    <div class="grid">
+    <div id="grid">
       <div class="row">
         <div class="column">
           <a href="https://www.humindschool.com/" target="_blank">
-            <h3><img src="/pictures/humind-school.png"> Humind School</h3>
+            <h3><img src="/pictures/humind-school.png" /> Humind School</h3>
           </a>
           <p>La 1ère école Sales & Business Development du Digital</p>
           <ul>
@@ -154,22 +164,24 @@
             <li>JobTech</li>
           </ul>
         </div>
-        
+
         <div class="column">
           <a href="https://www.studiomatic.co/" target="_blank">
-            <h3><img src="/pictures/studiomatic.png"> Studiomatic</h3>
+            <h3><img src="/pictures/studiomatic.png" /> Studiomatic</h3>
           </a>
-          <p>Studios de répétition en libre-service et
-accessibles 24/7 avec votre smartphone</p>
+          <p>
+            Studios de répétition en libre-service et accessibles 24/7 avec
+            votre smartphone
+          </p>
           <ul>
             <li>Music</li>
             <li>SaaS</li>
           </ul>
         </div>
-        
+
         <div class="column">
           <a href="https://qonto.eu/" target="_blank">
-            <h3><img src="/pictures/qonto.jpg"> Qonto</h3>
+            <h3><img src="/pictures/qonto.jpg" /> Qonto</h3>
           </a>
           <p>La néobanque des entreprises et des indépendants</p>
           <ul>
@@ -178,22 +190,25 @@ accessibles 24/7 avec votre smartphone</p>
           </ul>
         </div>
       </div>
-      
+
       <div class="row">
         <div class="column">
           <a href="https://www.talent.io/" target="_blank">
-            <h3><img src="/pictures/talent-io.png"> Talent.io</h3>
+            <h3><img src="/pictures/talent-io.png" /> Talent.io</h3>
           </a>
-          <p>Le moyen le plus simple de trouver votre prochain job tech, en CDI, freelance ou en stage</p>
+          <p>
+            Le moyen le plus simple de trouver votre prochain job tech, en CDI,
+            freelance ou en stage
+          </p>
           <ul>
             <li>JobTech</li>
             <li>Saas</li>
           </ul>
         </div>
-        
+
         <div class="column">
           <a href="https://shadow.tech/" target="_blank">
-            <h3><img src="/pictures/shadow.png"> Shadow</h3>
+            <h3><img src="/pictures/shadow.png" /> Shadow</h3>
           </a>
           <p>Transforme tes appareils en PC Gaming</p>
           <ul>
@@ -201,10 +216,10 @@ accessibles 24/7 avec votre smartphone</p>
             <li>Gaming</li>
           </ul>
         </div>
-        
+
         <div class="column">
           <a href="https://www.backmarket.com/" target="_blank">
-            <h3><img src="/pictures/backmarket.png"> Back Market</h3>
+            <h3><img src="/pictures/backmarket.png" /> Back Market</h3>
           </a>
           <p>La première place de marché dédiée aux produits reconditionnés</p>
           <ul>
@@ -213,11 +228,11 @@ accessibles 24/7 avec votre smartphone</p>
           </ul>
         </div>
       </div>
-      
+
       <div class="row">
         <div class="column">
           <a href="https://www.dayuse.fr/" target="_blank">
-            <h3><img src="/pictures/dayuse.png"> Dayuse</h3>
+            <h3><img src="/pictures/dayuse.png" /> Dayuse</h3>
           </a>
           <p>Réservation de chambres d'hôtels en journée</p>
           <ul>
@@ -225,23 +240,29 @@ accessibles 24/7 avec votre smartphone</p>
             <li>Travel</li>
           </ul>
         </div>
-        
+
         <div class="column">
           <a href="https://alan.com/" target="_blank">
-            <h3><img src="/pictures/alan.png"> Alan</h3>
+            <h3><img src="/pictures/alan.png" /> Alan</h3>
           </a>
-          <p>L'assurance santé en ligne pour les entreprises et travailleurs indépendants</p>
+          <p>
+            L'assurance santé en ligne pour les entreprises et travailleurs
+            indépendants
+          </p>
           <ul>
             <li>Fintech</li>
             <li>Health Insurance</li>
           </ul>
         </div>
-        
+
         <div class="column">
           <a href="https://www.abtasty.com/" target="_blank">
-            <h3><img src="/pictures/abtasty.jpeg"> AB Tasty</h3>
+            <h3><img src="/pictures/abtasty.jpeg" /> AB Tasty</h3>
           </a>
-          <p>La plateforme d'A/B testing et de personnalisation de l'expérience client</p>
+          <p>
+            La plateforme d'A/B testing et de personnalisation de l'expérience
+            client
+          </p>
           <ul>
             <li>Marketing</li>
             <li>BigData</li>
@@ -262,7 +283,9 @@ accessibles 24/7 avec votre smartphone</p>
 
     <footer>
       <div>Made with 🔥</div>
-      <div><a href="https://TheFSilver.github.io" target="_blank">TheFSilver.github.io</a></div>
+      <div>
+        <a href="https://TheFSilver.github.io" target="_blank">TheFSilver.github.io</a>
+      </div>
       <div><a href="mailto:fdasylva-0120@humindschool.com">Send me 💌</a></div>
     </footer>
   </body>
